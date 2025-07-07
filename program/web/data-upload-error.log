@@ -1,0 +1,23 @@
+Unable to find template "components/header.html" (looked into: /project/sandbox/user-workspace/program/templates) in "template.html" at line 36.
+#0 /project/sandbox/user-workspace/program/libraries/Twig/Loader/Filesystem.php(139): Twig_Loader_Filesystem->findTemplate()
+#1 /project/sandbox/user-workspace/program/libraries/Twig/Environment.php(264): Twig_Loader_Filesystem->getCacheKey()
+#2 /project/sandbox/user-workspace/program/libraries/Twig/Environment.php(322): Twig_Environment->getTemplateClass()
+#3 /project/sandbox/user-workspace/program/libraries/Twig/Template.php(272): Twig_Environment->loadTemplate()
+#4 /project/sandbox/user-workspace/program/cache/d/3/d3905c026cf2d820ad10494d7b7576e12cffd1375c71c5a03b3724860c48cca7.php(55): Twig_Template->loadTemplate()
+#5 /project/sandbox/user-workspace/program/libraries/Twig/Template.php(338): __TwigTemplate_d3905c026cf2d820ad10494d7b7576e12cffd1375c71c5a03b3724860c48cca7->doDisplay()
+#6 /project/sandbox/user-workspace/program/libraries/Twig/Template.php(312): Twig_Template->displayWithErrorHandling()
+#7 /project/sandbox/user-workspace/program/libraries/Twig/Template.php(323): Twig_Template->display()
+#8 /project/sandbox/user-workspace/program/code/parse-files.php(544): Twig_Template->render()
+#9 /project/sandbox/user-workspace/program/web/data-upload.php(93): create_templates()
+#10 {main}Unable to find template "components/header.html" (looked into: /project/sandbox/user-workspace/program/templates) in "template.html" at line 36.
+#0 /project/sandbox/user-workspace/program/libraries/Twig/Loader/Filesystem.php(139): Twig_Loader_Filesystem->findTemplate()
+#1 /project/sandbox/user-workspace/program/libraries/Twig/Environment.php(264): Twig_Loader_Filesystem->getCacheKey()
+#2 /project/sandbox/user-workspace/program/libraries/Twig/Environment.php(322): Twig_Environment->getTemplateClass()
+#3 /project/sandbox/user-workspace/program/libraries/Twig/Template.php(272): Twig_Environment->loadTemplate()
+#4 /project/sandbox/user-workspace/program/cache/d/3/d3905c026cf2d820ad10494d7b7576e12cffd1375c71c5a03b3724860c48cca7.php(55): Twig_Template->loadTemplate()
+#5 /project/sandbox/user-workspace/program/libraries/Twig/Template.php(338): __TwigTemplate_d3905c026cf2d820ad10494d7b7576e12cffd1375c71c5a03b3724860c48cca7->doDisplay()
+#6 /project/sandbox/user-workspace/program/libraries/Twig/Template.php(312): Twig_Template->displayWithErrorHandling()
+#7 /project/sandbox/user-workspace/program/libraries/Twig/Template.php(323): Twig_Template->display()
+#8 /project/sandbox/user-workspace/program/code/parse-files.php(544): Twig_Template->render()
+#9 /project/sandbox/user-workspace/program/web/data-upload.php(93): create_templates()
+#10 {main}
